@@ -62,26 +62,24 @@ flowchart LR
 ## 📂 Repository Structure
 
 ```text
-├── app.py                           # Part 4: Complete Streamlit Web Application & Dashboard
-├── AI_Financial_Analyst_Part1.py    # Part 1: MarketData pipeline, DuckDuckGo/Yahoo news & Plotly charts
-├── AI_Financial_Analyst_Part2.py    # Part 2: LangChain @tool definitions, Single Agent & Multi-Agent LangGraph
-├── AI_Financial_Analyst_Part3.py    # Part 3: EarningsRAG (PDF ingestion & search), ReflexionAgent & BacktestingEngine
-├── AI_Financial_Analyst.ipynb       # Complete 8-Week Implementation Jupyter Notebook (end-to-end walkthrough)
+├── app.py                           # Complete Streamlit Web Application & Dashboard
+ ReflexionAgent & BacktestingEngine
+├── AI_Financial_Analyst.ipynb       # Complete Implementation Jupyter Notebook (end-to-end walkthrough)
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # Project documentation
 ```
 
 ---
 
-## 🗓️ 8-Week Engineering Roadmap
+## Engineering Roadmap
 
 The project is organized into three progressive engineering phases (documented cell-by-cell in [`AI_Financial_Analyst.ipynb`](./AI_Financial_Analyst.ipynb)):
 
-| Phase | Weeks | Module | Core Deliverables |
+| Module | Core Deliverables |
 | :--- | :--- | :--- | :--- |
-| **Phase 1: Foundation & Data Engineering** | Weeks 1–2 | `Part 1` | `MarketData` class (`yfinance`), DuckDuckGo news scraper with fallbacks, Plotly OHLC + SMA 20/50 + Volume charts, and Groq Llama 3 connection. |
-| **Phase 2: Agent Orchestration & RAG** | Weeks 3–5 | `Part 2` & `Part 3` | `@tool` bindings, ReAct `StateGraph`, Multi-Agent Investment Committee (`Router` -> `Market` -> `News` -> `Head Analyst`), and PDF Earnings Call RAG pipeline. |
-| **Phase 3: Advanced Logic & Polish** | Weeks 6–8 | `Part 3` & `app.py` | `ReflexionAgent` self-correction loop, look-ahead-free `BacktestingEngine`, and full two-column Streamlit web interface. |
+| ** Foundation & Data Engineering** | Weeks 1–2 | `Part 1` | `MarketData` class (`yfinance`), DuckDuckGo news scraper with fallbacks, Plotly OHLC + SMA 20/50 + Volume charts, and Groq Llama 3 connection. |
+| ** Agent Orchestration & RAG** | Weeks 3–5 | `Part 2` & `Part 3` | `@tool` bindings, ReAct `StateGraph`, Multi-Agent Investment Committee (`Router` -> `Market` -> `News` -> `Head Analyst`), and PDF Earnings Call RAG pipeline. |
+| ** Advanced Logic & Polish** | Weeks 6–8 | `Part 3` & `app.py` | `ReflexionAgent` self-correction loop, look-ahead-free `BacktestingEngine`, and full two-column Streamlit web interface. |
 
 ---
 
